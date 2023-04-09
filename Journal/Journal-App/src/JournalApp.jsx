@@ -1,9 +1,10 @@
 import React from 'react'
+import AppRouter from './router/AppRouter'
 
 const JournalApp = () => {
   return (
     <>
-      <h1>Hello world!</h1>
+      <AppRouter/>
     </>
   )
 }
