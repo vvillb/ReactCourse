@@ -4,7 +4,7 @@ import React from 'react'
 
 
 
-const SideBar = ({ drawerWidth = 240 }) => {
+const SideBar = ({ drawerWidth = 280 }) => {
     return (
       <Box
           component='nav'
@@ -20,7 +20,7 @@ const SideBar = ({ drawerWidth = 240 }) => {
           >
               <Toolbar>
                   <Typography variant='h6' noWrap component='div'>
-                      Fernando Herrera
+                      Vir
                   </Typography>
               </Toolbar>
               <Divider />

@@ -1,9 +1,8 @@
-import React from 'react'
-import {AppBar, Grid, IconButton, Toolbar, Typography} from '@mui/material'
-import {LogoutOutlined, MenuOutlined} from '@mui/icons-material'
+import { AppBar, Grid, IconButton, Toolbar, Typography } from '@mui/material';
+import { LogoutOutlined, MenuOutlined } from '@mui/icons-material';
 
 
-const NavBar = ({drawerWidth=240 }) => {
+ const NavBar = ({ drawerWidth = 240 }) => {
   return (
     <AppBar 
         position='fixed'
@@ -12,7 +11,7 @@ const NavBar = ({drawerWidth=240 }) => {
             ml: { sm: `${ drawerWidth }px` }
          }}
     >
-            <Toolbar>
+        <Toolbar>
             <IconButton
                 color='inherit'
                 edge="start"
@@ -30,9 +29,7 @@ const NavBar = ({drawerWidth=240 }) => {
             </Grid>
 
         </Toolbar>
-
     </AppBar>
   )
 }
-
-export default NavBar
+export default NavBar;
