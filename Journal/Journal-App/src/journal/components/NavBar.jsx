@@ -13,21 +13,23 @@ const NavBar = ({drawerWidth=240 }) => {
          }}
     >
             <Toolbar>
-                <IconButton
-                    color='inherit'
-                    edge="start"
-                    sx={{mr:2,display:{sm:'none'}}}
-                    >
-                    <MenuOutlined/>
-                </IconButton>
-                <Grid container direction='row' justifyContent='space-between' alignItems='center'>
-                    <Typography variant='h6' noWrap component='div'>JournalApp</Typography>
+            <IconButton
+                color='inherit'
+                edge="start"
+                sx={{ mr: 2, display: { sm: 'none' } }}
+            >
+                <MenuOutlined />
+            </IconButton>
 
-                    <IconButton color='error'>
-                        <LogoutOutlined/>
-                    </IconButton>
-                </Grid>
-            </Toolbar>
+            <Grid container direction='row' justifyContent='space-between' alignItems='center'>
+                <Typography variant='h6' noWrap component='div'> JournalApp </Typography>
+
+                <IconButton color='error'>
+                    <LogoutOutlined />
+                </IconButton>
+            </Grid>
+
+        </Toolbar>
 
     </AppBar>
   )
